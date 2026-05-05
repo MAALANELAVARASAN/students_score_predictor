@@ -1,4 +1,4 @@
-from utils import load_model
+from src.utils import load_model
 
 def predict_score(hours, attendance, previous):
     model = load_model("../model/model.pkl")
